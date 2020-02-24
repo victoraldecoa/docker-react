@@ -1,6 +1,18 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Development
+
+### Run tests and run the service with docker compose
+
+`docker-compose up` runs the tests and makes the service accessible at http://localhost:3000 (or http://192.168.99.100:3000 on Windows with Docker Toolbox)
+
+### Test the production build
+
+`docker build .`
+
+`docker run -p 80:80 IMAGE_ID`
+
+## Available Scripts to run locally
 
 In the project directory, you can run:
 
